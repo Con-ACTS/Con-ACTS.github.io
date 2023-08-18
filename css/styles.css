@@ -11204,3 +11204,11 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
+.map-icon {
+  position: relative;
+  width: 10%;
+  height: 10%;
+  padding: 1rem 0;
+  margin-right: 20px
+}
