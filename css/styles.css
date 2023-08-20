@@ -11142,7 +11142,17 @@ body {
 .about-section p {
   margin-bottom: 5rem;
 }
-
+.about-section h2, .about-section .h2 {
+  font-family: "Jeju Myeongjo";
+  max-width: 20rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.about-section h6, .about-section .h6 {
+  font-family: "Jeju Myeongjo";
+  max-width: 20rem;
+  font-size: 1rem;
+}
 .projects-section {
   padding: 10rem 0;
 }
