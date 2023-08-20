@@ -52,32 +52,33 @@
         <section class="songlist-section" id="songlist">
             <div class="slideshow-container">
                 <div class="text-center">
-                    <h2 class="text-title">Contents</h2>
+                    <h2 class="text-title mt-5 mb-3">Contents</h2>
                 </div>
                 <div class="mySlides">
-                    <img src="assets/img/part1.png" style="width:100%">
-                </div>
-                
-                <div class="mySlides">
-                    <img src="assets/img/part2.png" style="width:100%">
+                    <img src="assets/img/part1.jpeg" style="width:100%">
                 </div>
                 
                 <div class="mySlides">
-                    <img src="assets/img/part3.png" style="width:100%">
+                    <img src="assets/img/part2.jpeg" style="width:100%">
+                </div>
+                
+                <div class="mySlides">
+                    <img src="assets/img/part3.jpeg" style="width:100%">
                 </div>
 
-                <div class="mySlides">
-                    <img src="assets/img/part4.png" style="width:100%">
-                </div>
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+            
             </div>
                 <br>
-                
+            
             <div style="text-align:center">
                 <span class="dot" onclick="currentSlide(1)"></span> 
                 <span class="dot" onclick="currentSlide(2)"></span> 
                 <span class="dot" onclick="currentSlide(3)"></span> 
-                <span class="dot" onclick="currentSlide(4)"></span> 
             </div>
+
+            
             <script>
                 let slideIndex = 1;
                 showSlides(slideIndex);
@@ -107,9 +108,7 @@
                 }
             </script>
         </section> 
-        
 
-        
 
         <!-- Signup-->
         <section class="signup-section" id="signup">
