@@ -11276,11 +11276,11 @@ body {
 
 /* Position buttons to the right */
 .songlist-section .prev {
-  left : 10rem;
+  left : 5rem;
 }
 .songlist-section .next {
   padding : 1rem;
-  right : 10rem;
+  right : 5rem;
   border-radius: 3px 0 0 3px;
 }
 
