@@ -11103,7 +11103,7 @@ body {
 .masthead h3, .masthead .h3 {
   font-family: "Jeju Myeongjo";
   max-width: 20rem;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 @media (min-width: 768px) {
   .masthead h1, .masthead .h1 {
@@ -11152,6 +11152,7 @@ body {
   font-family: "Jeju Myeongjo";
   max-width: 20rem;
   font-size: 1rem;
+  line-height: 1.8;
 }
 .projects-section {
   padding: 10rem 0;
